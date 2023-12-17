@@ -34,7 +34,7 @@ const Products = () => {
     <div>
       <h1>Products</h1>
       <div className="row row-cols-1 row-cols-1 row-cols-lg-3 row-cols-md-4 g-1 py-5">
-      <div className="row row-cols-1 row-cols-1 row-cols-lg-3 row-cols-md-4 g-1 py-5">
+    
             {products.map((products) => (
                 <div key={products.id} className=" py-5 ">
                 <Cards products={products} />
